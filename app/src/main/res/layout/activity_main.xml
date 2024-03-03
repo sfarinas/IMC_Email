@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="324dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Email@google.com"
@@ -23,7 +23,7 @@
     <EditText
         android:id="@+id/edtPeso"
         android:layout_width="324dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Seu Peso"
@@ -37,7 +37,7 @@
     <EditText
         android:id="@+id/edtAltura"
         android:layout_width="324dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Sua Altura"
@@ -51,7 +51,7 @@
     <EditText
         android:id="@+id/edtDestinatario"
         android:layout_width="324dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Destinatario ?"
@@ -65,8 +65,9 @@
     <Button
         android:id="@+id/buttonIMC"
         android:layout_width="384dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
+        android:onClick="IMC"
         android:text="Calculit IMC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,8 +76,9 @@
     <Button
         android:id="@+id/buttonEnviarEmail"
         android:layout_width="384dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:layout_marginTop="24dp"
+        android:onClick="enviarEmail"
         android:text="ENVIAR EMAIL"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
